@@ -1,0 +1,28 @@
+{
+    "name": "data-volume-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "author": "Maximilian Schwarzmüller / Academind GmbH",
+    "license": "ISC",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.22"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "printWidth": 80,
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true,
+        "indent_style": "space",
+        "charset": "utf-8",
+        "trim_trailing_whitespace": true,
+        "inset_final_newline": true
+    }
+}
